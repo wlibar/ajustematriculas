@@ -1,0 +1,14 @@
+Este programa permite gestionar la adición de asignaturas durante un proceso de matrículas académicas universitarias. Los pasos para instalar el programa son:
+
+1. En MySQL cree una base de datos con el nombre que guste. Asigne las credenciales de una cuenta (usuario, password) a su gusto.
+
+2. En esa base de datos que ha creado, ejecute el script bd.sql, que permite crear la estructura de la base de datos.
+
+3. En la tabla asignaturas debe agregar las asignatura del plan de estudios de su programa. Se han colocado algunas asignaturas de ejemplo del programa de Ingeniería de Sistemas como muestra.
+
+4. Vaya al archivo core/config.php y edita las variables acorde a sus necesidades. Las primeras variables son la bases de datos, las segundas son variables del programa académico.
+
+5. Suba el código fuente del programa a un host. Se requiere php y mysql. Para gestionar la base de datos se recomienda phpmyadmin. Para subir el programa al host recomiendo la aplicación fileZilla.
+
+Cualquier duda contactar a: wpantoja@gmail.com
+
